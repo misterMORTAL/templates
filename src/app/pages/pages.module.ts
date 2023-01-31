@@ -3,7 +3,7 @@ import { CommonModule } from '@angular/common';
 import { CategoryComponent } from './category/category.component';
 import { ProductComponent } from './product/product.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
-import { PagesRoutingModule } from './pages-routing.module';
+import { SharedModule } from '../shared/shared.module';
 
 
 
@@ -17,7 +17,7 @@ import { PagesRoutingModule } from './pages-routing.module';
   ],
   imports: [
     CommonModule,
-    PagesRoutingModule
+    SharedModule
   ],
   exports:[
     DashboardComponent,

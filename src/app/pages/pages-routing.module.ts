@@ -7,10 +7,10 @@ import { CategoryComponent } from './category/category.component';
 import { ProductComponent } from './product/product.component';
 
 const routes: Routes= [
-  {path: 'dashboard',component : PagesComponent},
-  {path: '',component: DashboardComponent},
-  {path: 'category',component:CategoryComponent},
-  {path:'product',component:ProductComponent}
+  {path: 'inicio',component : PagesComponent},
+  {path: 'principal',component: DashboardComponent},
+  {path: 'categoria',component:CategoryComponent},
+  {path:'producto',component:ProductComponent}
 ]
 
 @NgModule({
